@@ -1,4 +1,4 @@
-# Project
+# Projects
 This repo centralizes different data science projects I implemented.
 Current projects:
 - Classification for a Telecom company's marketing campaign:
