@@ -160,8 +160,7 @@ Example: Given the UNDIRECTED graph:
 <img width="350" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/d2d11530-ac3c-440a-b3ab-7e4f36af05f1">
 
 $$
-p(x_1) = \Sigma_{x_2=0}^1\Sigma_{x_2=0}^1...\Sigma_{x_{13}=0}^1p(x_2,...,x_{13})
-
+p(x_1 | x_2, x_3...x_{k}) = \frac{p(x_1, x_2, x_3, ..., x_k)}{p(x_2 , x_3,..., x_k)}
 $$
 
 Note  $x_1$ is not involved in the sums
