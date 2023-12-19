@@ -1,4 +1,12 @@
-# Graph theory and statistics
+This repo centralizes different data science projects I implemented.
+Current projects:
+- Classification for a Telecom company's marketing campaign:
+  - [EDA](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification_marketing__campaigns_EDA.ipynb)
+  - [Modelling](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification__marketing_campaigns.ipynb):
+      - Highlights: apply Bayesian Logistic Regression in predicting the binary target variable.
+-------
+A brief note about the Bayesian Methods used.
+Reference: this note is taken from Advanced Bayesian Methods course's materials by Professor Matt W., UTS.
 
 # 1. Notation.
 
@@ -428,3 +436,4 @@ because
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/424d42eb-7fad-4a84-9460-6c586bd80be0/Untitled.png)
 
 i.e: $y_i$ follows Normal distribution with mean $\beta_0 + \beta_1x_i$ and variance $\sigma^2$.
+
