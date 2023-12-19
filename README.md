@@ -15,7 +15,7 @@ Reference: this note is mainly taken from Advanced Bayesian Methods course's mat
 # 1. Notation.
 
 - $x$ is a random variable (instead of $X$)
-- $p(x)$ is a density function of x at x (instead of )
+- $p(x)$ is a density function of x at x (instead of $f(x)$)
 - $p(x,y)$ is the joint density function of x and y
 - $x = x^o$  (x ring or x circle) corresponds to $x$ having the observed value $x^o$.
 
