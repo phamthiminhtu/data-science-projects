@@ -402,6 +402,3 @@ From (1) and (2), we have the MCMC scheme as follow:
 MCMC requires the full conditional probability function.
 
 But thanks to the locality property, we can simplify it to the conditional probability function on the Markov blanket instead of “rest” .
-
-![IMG_6181.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/f746782d-09a2-4aaa-bb49-a36fba227b42/IMG_6181.jpeg)
-
