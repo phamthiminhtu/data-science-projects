@@ -5,15 +5,15 @@ Current projects:
   - [Modelling](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification__marketing_campaigns.ipynb):
       - Highlights: apply Bayesian Logistic Regression in predicting the binary target variable.
 -------
-A brief note about the Bayesian Methods used.
-Reference: this note is taken from Advanced Bayesian Methods course's materials by Professor Matt W., UTS.
+A brief note about the Bayesian Methods.
+Reference: this note is taken from Advanced Bayesian Methods course's materials by Professor Matt Wand, UTS.
 
 # 1. Notation.
 
 - $x$ is a random variable (instead of $X$)
 - $p(x)$ is a density function of x at x (instead of )
 - $p(x,y)$ is the joint density function of x and y
-- $x = x^o$  ( x ring or x circle) corresponds to $x$ having the observed value $x^o$.
+- $x = x^o$  (x ring or x circle) corresponds to $x$ having the observed value $x^o$.
 
 # 2. Undirected graph and DAG.
 
