@@ -161,7 +161,6 @@ Example: Given the UNDIRECTED graph:
 
 $$
 p(x_1) = \Sigma_{x_2=0}^1\Sigma_{x_2=0}^1...\Sigma_{x_{13}=0}^1p(x_2,...,x_{13})
-
 $$
 
 Note  $x_1$ is not involved in the sums
