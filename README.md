@@ -199,6 +199,8 @@ p(x_1 | x_2=0, x_3=1...x_{k}) = \frac{p(x_1, x_2=0, x_3=1, ..., x_k)}{p(x_2=0 , 
 $$
 
 
+
+
 $$
 = \frac{\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}{\sum_{x_1=0}^1\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}
 $$
@@ -237,7 +239,8 @@ $$
 
 ### 7.1.3. E**xample on continuous variables.**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/c2b9b6e1-ffb6-4112-989c-ed93e9a882eb/Untitled.png)
+<img width="624" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/32258ef8-42d9-42f6-99c8-008dbebcda66">
+
 
 ## 7.2. Conditional marginalization in probabilistic graph with conditional independence theorems.
 
@@ -245,7 +248,6 @@ Example: given the DAG and its moral graph.
 
 **DAG 7.2.1:**
 
-![IMG_6176.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/f6c7b658-231f-4eaa-9fce-695bd9cfe770/IMG_6176.jpeg)
 
 And:
 
