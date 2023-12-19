@@ -50,6 +50,8 @@ $$
 p(x_1, x_2, ... , x_k) ∝ \psi(C_1)*\psi(C_2)*...*\psi(C_l)
 $$
 
+
+
 where:
 
 - $\psi$ is the potential function.
