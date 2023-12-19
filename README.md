@@ -4,7 +4,7 @@ Current projects:
 - Classification for a Telecom company's marketing campaign:
   - [EDA](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification_marketing__campaigns_EDA.ipynb)
   - [Modelling](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification__marketing_campaigns.ipynb):
-      - Highlights: apply Bayesian Logistic Regression in predicting the binary target variable.
+      - Highlight: apply Bayesian Logistic Regression in predicting the binary target variable.
 -------
 # Documentation.
 
@@ -15,7 +15,7 @@ Reference: this note is mainly taken from Advanced Bayesian Methods course's mat
 # 1. Notation.
 
 - $x$ is a random variable (instead of $X$)
-- $p(x)$ is a density function of x at x (instead of $f(x)$)
+- $p(x)$ is a density function of x at x, instead of $f(x)$
 - $p(x,y)$ is the joint density function of x and y
 - $x = x^o$  (x ring or x circle) corresponds to $x$ having the observed value $x^o$.
 
