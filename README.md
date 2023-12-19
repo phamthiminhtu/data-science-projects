@@ -6,6 +6,7 @@ Current projects:
       - Highlights: apply Bayesian Logistic Regression in predicting the binary target variable.
 -------
 A brief note about the Bayesian Methods.
+
 Reference: this note is taken from Advanced Bayesian Methods course's materials by Professor Matt Wand, UTS.
 
 # 1. Notation.
@@ -198,12 +199,8 @@ $$
 p(x_1 | x_2=0, x_3=1...x_{k}) = \frac{p(x_1, x_2=0, x_3=1, ..., x_k)}{p(x_2=0 , x_3=1,..., x_k)}
 $$
 
+<img width="361" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/dd8140bb-4b95-4ac5-ac81-0e4f150ccdf8">
 
-
-
-$$
-= \frac{\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}{\sum_{x_1=0}^1\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}
-$$
 
 ### 7.1.2. **Another concrete example.**
 
