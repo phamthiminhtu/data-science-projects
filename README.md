@@ -164,11 +164,11 @@ and so on
 
 Example: Given the UNDIRECTED graph:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/db8a58fd-270b-45a7-96da-32f1428e2bc3/Untitled.png)
+![Uploading image.png…]()
+
 
 $$
 p(x_1) = \Sigma_{x_2=0}^1\Sigma_{x_2=0}^1...\Sigma_{x_{13}=0}^1p(x_2,...,x_{13})
-
 $$
 
 Note  $x_1$ is not involved in the sums
