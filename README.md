@@ -46,9 +46,8 @@ Note: the Markov blanket of a node in a DAG is **identical** to the Markov blank
 # 3. Probabilistic Undirected Graph.
 
 ## 3.1. Joint probability of nodes.
-$$
-p(x_1, x_2, ... , x_k) ∝ \psi(C_1)*\psi(C_2)*...*\psi(C_l)
-$$
+<img width="416" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/04c81c2c-76fe-43e0-9805-43aa52c25d15">
+
 
 where:
 
