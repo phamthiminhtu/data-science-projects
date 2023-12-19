@@ -396,9 +396,9 @@ From (1) and (2), we have the MCMC scheme as follow:
 - Initialize $x_3^{[0]}$
 - Cycle: $g = 1..., B+K$
     - $x_1^{[g]} \text{ \~
-     } N(\frac{x_2^ox_3^{[g-1]}}{x_3^{[g-1]}+1}, \frac{1}{x_3^{[g-1]}+1})$
+     } ~ N(\frac{x_2^ox_3^{[g-1]}}{x_3^{[g-1]}+1}, \frac{1}{x_3^{[g-1]}+1})$
     - $x_3^{g} \text{ \~
-     } Gamma(\frac{3}{2}, \frac{1}{2}(x_2^o -x_1^g)^2+1)$
+     } ~ Gamma(\frac{3}{2}, \frac{1}{2}(x_2^o -x_1^g)^2+1)$
 
 ## 8.2. Relationship to locality property.
 
