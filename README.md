@@ -127,7 +127,7 @@ Example:
 
 - In the case of probabilistic UNDIRECTED graph:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/d4f5836d-559b-44c2-b7d5-e9da452c9aab/Untitled.png)
+<img width="367" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/8f568bfc-c8f1-402b-a7f0-4831912dddf6">
 
 $$
 p(A| rest) = P(A| D, B)
@@ -141,7 +141,7 @@ and so on
 
 - In the case of probabilistic DAG:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/af4159c4-fe1a-44a2-97dc-04abfc0556ae/Untitled.png)
+<img width="378" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/22418809-8805-46a3-affb-6b2652d36af3">
 
 $$
 p(Z| rest) = p(Z|X, Y, W)
@@ -157,7 +157,7 @@ and so on
 
 Example: Given the UNDIRECTED graph:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/db8a58fd-270b-45a7-96da-32f1428e2bc3/Untitled.png)
+<img width="350" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/d2d11530-ac3c-440a-b3ab-7e4f36af05f1">
 
 $$
 p(x_1) = \Sigma_{x_2=0}^1\Sigma_{x_2=0}^1...\Sigma_{x_{13}=0}^1p(x_2,...,x_{13})
@@ -173,7 +173,9 @@ Conditional marginalization of a probabilistic graph involves obtaining the cond
 Conditional marginalization applies for both UNDIRECTED graph and DAG. The core concept is :
 
 $$
+
 p(x_1 | x_2, x_3...x_{k}) = \frac{p(x_1, x_2, x_3, ..., x_k)}{p(x_2 , x_3,..., x_k)}
+
 $$
 
 If some of the nodes are observed, then just SUBSTITUTE their observed values into the equation (instead of integrate or sum over their all possible values).
@@ -198,7 +200,7 @@ $$
 
 Given the DAG:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/a72af071-ba6e-46ea-8e5a-82d07acfa339/Untitled.png)
+<img width="398" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/f7c472d5-b56a-42f7-a834-ba088bdc9e50">
 
 Note that
 
@@ -226,7 +228,7 @@ $$
 
 ### 7.1.3. E**xample on continuous variables.**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/c2b9b6e1-ffb6-4112-989c-ed93e9a882eb/Untitled.png)
+<img width="608" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/1ed2bed4-abe7-4307-9f36-ef7fc4ae3b39">
 
 ## 7.2. Conditional marginalization in probabilistic graph with conditional independence theorems.
 
@@ -234,7 +236,7 @@ Example: given the DAG and its moral graph.
 
 **DAG 7.2.1:**
 
-![IMG_6176.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/f6c7b658-231f-4eaa-9fce-695bd9cfe770/IMG_6176.jpeg)
+<img width="713" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/817d3082-9f37-40df-8740-e4f85b1ccaac">
 
 And:
 
@@ -289,8 +291,6 @@ Another example using the same DAG above:
 ![IMG_6179.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/8e1d78d6-67e3-41ba-b621-01b6a4422ec6/IMG_6179.jpeg)
 
 Example:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/e64973dd-d863-4085-bc63-f6a30f93de5a/Untitled.png)
 
 Our goals are to obtain the conditional marginal distributions:
 
@@ -401,30 +401,3 @@ But thanks to the locality property, we can simplify it to the conditional proba
 
 ![IMG_6181.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/f746782d-09a2-4aaa-bb49-a36fba227b42/IMG_6181.jpeg)
 
-# 9. MCMC in relation to multiple data points.
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/ff1a7c97-8c6e-4c8b-a686-24180bc5279c/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/08a6a05c-5ee9-451a-852d-c3db9377835b/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/cfc305bf-63a1-41c5-8b30-1e3833d7d1cb/Untitled.png)
-
-**Note:**
-
-- We have
-
-$$
-p(\bold y|\beta_1, \beta_0, \sigma^2) = \prod_{i=1}^np(y_i|\beta_1, \beta_0, \sigma^2)
-$$
-
-because the data points are **independent**.
-
-- And we have  $p(\bold y|\beta_1, \beta_0, \sigma^2)$ equals to:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/84a4a58a-5bca-473e-9f1c-4770927d73d7/Untitled.png)
-
-because 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/424d42eb-7fad-4a84-9460-6c586bd80be0/Untitled.png)
-
-i.e: $y_i$ follows Normal distribution with mean $\beta_0 + \beta_1x_i$ and variance $\sigma^2$.
