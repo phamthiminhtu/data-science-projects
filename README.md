@@ -187,11 +187,9 @@ Then the equation becomes:
 
 $$
 p(x_1 | x_2=0, x_3=1...x_{k}) = \frac{p(x_1, x_2=0, x_3=1, ..., x_k)}{p(x_2=0 , x_3=1,..., x_k)}
-$$
-
-$$
 = \frac{\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}{\sum_{x_1=0}^1\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}
 $$
+
 
 ### 7.1.2. **Another concrete example.**
 
