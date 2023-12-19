@@ -179,6 +179,7 @@ Conditional marginalization of a probabilistic graph involves obtaining the cond
 
 Conditional marginalization applies for both UNDIRECTED graph and DAG. The core concept is :
 
+
 $$
 p(x_1 | x_2, x_3...x_{k}) = \frac{p(x_1, x_2, x_3, ..., x_k)}{p(x_2 , x_3,..., x_k)}
 $$
@@ -197,6 +198,7 @@ $$
 p(x_1 | x_2=0, x_3=1...x_{k}) = \frac{p(x_1, x_2=0, x_3=1, ..., x_k)}{p(x_2=0 , x_3=1,..., x_k)}
 $$
 
+
 $$
 = \frac{\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}{\sum_{x_1=0}^1\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}
 $$
@@ -205,7 +207,8 @@ $$
 
 Given the DAG:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/a72af071-ba6e-46ea-8e5a-82d07acfa339/Untitled.png)
+<img width="422" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/e5939439-be94-4765-a1f1-f1a754bdfc91">
+
 
 Note that
 
@@ -285,19 +288,14 @@ $$
 
 because $\int exp(5(x_4 - x_2)^2) dx_4$ is the constant which does not depend on $x_1$
 
-Another example using the same DAG above:
-
-![IMG_6177.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/6fb1bba6-64a1-4465-9029-10922f2cc6ae/IMG_6177.jpeg)
 
 # 8. Markov chain Monte Carlo.
 
 ## 8.1. How to MCMC.
 
-![IMG_6179.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/8e1d78d6-67e3-41ba-b621-01b6a4422ec6/IMG_6179.jpeg)
 
 Example:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/e64973dd-d863-4085-bc63-f6a30f93de5a/Untitled.png)
 
 Our goals are to obtain the conditional marginal distributions:
 
@@ -407,32 +405,4 @@ MCMC requires the full conditional probability function.
 But thanks to the locality property, we can simplify it to the conditional probability function on the Markov blanket instead of “rest” .
 
 ![IMG_6181.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/f746782d-09a2-4aaa-bb49-a36fba227b42/IMG_6181.jpeg)
-
-# 9. MCMC in relation to multiple data points.
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/ff1a7c97-8c6e-4c8b-a686-24180bc5279c/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/08a6a05c-5ee9-451a-852d-c3db9377835b/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/cfc305bf-63a1-41c5-8b30-1e3833d7d1cb/Untitled.png)
-
-**Note:**
-
-- We have
-
-$$
-p(\bold y|\beta_1, \beta_0, \sigma^2) = \prod_{i=1}^np(y_i|\beta_1, \beta_0, \sigma^2)
-$$
-
-because the data points are **independent**.
-
-- And we have  $p(\bold y|\beta_1, \beta_0, \sigma^2)$ equals to:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/84a4a58a-5bca-473e-9f1c-4770927d73d7/Untitled.png)
-
-because 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/424d42eb-7fad-4a84-9460-6c586bd80be0/Untitled.png)
-
-i.e: $y_i$ follows Normal distribution with mean $\beta_0 + \beta_1x_i$ and variance $\sigma^2$.
 
