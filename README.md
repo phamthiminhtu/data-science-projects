@@ -7,7 +7,7 @@ Current projects:
 -------
 A brief note about the Bayesian Methods.
 
-Reference: this note is taken from Advanced Bayesian Methods course's materials, taught by Professor Matt Wand, UTS.
+Reference: this note is mainly taken from Advanced Bayesian Methods course's materials, taught by Professor Matt Wand, UTS.
 
 # 1. Notation.
 
