@@ -134,7 +134,7 @@ Example:
 
 - In the case of probabilistic UNDIRECTED graph:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/d4f5836d-559b-44c2-b7d5-e9da452c9aab/Untitled.png)
+<img width="352" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/5913b90d-b110-4454-8022-0da1409bc38c">
 
 $$
 p(A| rest) = P(A| D, B)
@@ -148,7 +148,8 @@ and so on
 
 - In the case of probabilistic DAG:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/34e88326-2db0-45f2-8a39-69cbcb130b4f/af4159c4-fe1a-44a2-97dc-04abfc0556ae/Untitled.png)
+<img width="434" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/109e74bc-bcc4-4ed0-ace9-11a3f1935e4c">
+
 
 $$
 p(Z| rest) = p(Z|X, Y, W)
@@ -163,8 +164,7 @@ and so on
 # 7. Marginalization.
 
 Example: Given the UNDIRECTED graph:
-
-![Uploading image.png…]()
+<img width="362" alt="image" src="https://github.com/phamthiminhtu/data_science_projects/assets/56192840/0b6ec0b1-c4dc-48ea-a125-7eb0c3d10f39">
 
 
 $$
@@ -199,8 +199,10 @@ p(x_1 | x_2=0, x_3=1...x_{k}) = \frac{p(x_1, x_2=0, x_3=1, ..., x_k)}{p(x_2=0 , 
 $$
 
 
+
+
 $$
-= \frac{\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}{\sum_{x_1=0}^1\sum_{x_4=0}^12x_1 + 3*0 + 4*1 + 5x_4}
+p(x_1, x_2, ... , x_k) ∝ \psi(C_1)*\psi(C_2)*...*\psi(C_l)
 $$
 
 ### 7.1.2. **Another concrete example.**
