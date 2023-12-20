@@ -6,6 +6,6 @@ Current projects:
   - [Modelling](https://github.com/phamthiminhtu/data_science_projects/blob/master/classification__marketing_campaigns.ipynb):
       - Highlight: apply Bayesian Logistic Regression in predicting the binary target variable.
 -------
-# Learning.
+# Learning
 - [Deep neural network from scratch](https://github.com/phamthiminhtu/data_science_projects/blob/master/learning/deep_learning/deep_neural_network_from_scratch.ipynb)
 - [Bayesian Methods](https://github.com/phamthiminhtu/data_science_projects/blob/master/learning/deep_learning/Bayesian%20Methods.md)
