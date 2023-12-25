@@ -8,4 +8,4 @@ Current projects:
 -------
 # Learning
 - [Deep neural network from scratch](https://github.com/phamthiminhtu/data_science_projects/blob/master/learning/deep_learning/deep_neural_network_from_scratch.ipynb)
-- [Bayesian Methods](https://github.com/phamthiminhtu/data_science_projects/blob/master/learning/deep_learning/Bayesian%20Methods.md)
+- [Bayesian Methods](https://github.com/phamthiminhtu/data-science-projects/blob/master/learning/Bayesian%20Methods.md)
